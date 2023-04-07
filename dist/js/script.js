@@ -16,3 +16,37 @@ const counters = document.querySelectorAll('.tech__raiting-counter'),
 counters.forEach( (item, i) => {
     lines[i].style.width = item.innerHTML;
 })
+
+
+
+$(document).ready(function(){
+$('.contacts__form').validate();
+
+// function valideForms(form) {
+//     $(form).validate({
+//       rules: {
+//         name: {
+//           required: true,
+//           minlength: 2
+//         },
+//         email: {
+//           required: true,
+//           email: true
+//         }
+//       },
+//       messages: {
+//         name: {
+//           required: "Пожалуйста, введите своё имя",
+//           minlength: jQuery.validator.format("Введите {0} символа!")
+//         },
+//         email: {
+//           required: "Пожалуйста, введите свою почту",
+//           email: "Неправильно введён адрес почты"
+//         }
+//       }
+//     });
+//   };
+
+//   valideForms('#contacts-form');
+
+});

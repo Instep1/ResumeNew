@@ -33,3 +33,19 @@
 @import 'blocks/portfolio';
 @import 'blocks/price';
 @import 'blocks/contacts';
+@import 'blocks/media';
+
+.policy {
+    &__wrapper {
+        width: 1140px;
+        margin: 0 auto;
+    }
+    &__table {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        td {
+            border: 1px solid #000;
+            padding: 5px;
+        }
+    }
+}
